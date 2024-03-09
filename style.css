@@ -1,0 +1,69 @@
+body {
+	background-color: pink;
+}
+h2 {
+	color: navy;
+	font-family: Helvetica;
+	text-shadow: 2px 2px;
+}
+h1	{
+	text-shadow: 2px 2px;
+}
+html {
+	text-align: center;
+}
+ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.phonenumber {
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+}
+.bold {
+	font-weight:900;
+	text-decoration-line: underline;
+}
+.flex-container {
+  display: flex;
+  flex-direction:column;
+}
+.flex-container {
+  border:1px #ccc solid;
+  padding:10px;
+}
+.box1 {
+	flex:1;
+	background-color:#8B008B;
+    justify-content:space-between;
+	width:100%;
+}
+.box2 {
+	flex:1;
+	background-color:#9932CC;
+	justify-content:space-between;
+	width:100%
+}
+.box3 {
+	flex:1;
+	background-color:#483D8B;
+	justify-content:space-between;
+	width:100%
+}
+@media only screen and (max-width: 600px) {
+.box1 {
+    width:50%;
+  }
+.box2 {
+    width:50%;
+  }
+.box3 {
+    width:50%;
+  }
+}
+ 
+
+
+
